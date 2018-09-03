@@ -22,6 +22,7 @@ class Filter extends React.Component {
             type="text"
             name="author"
             onChange={this.onChange}
+            autoCapitalize={true}
             id="author"
             placeholder="Search for Id`s.."
             title="Type in an id"
